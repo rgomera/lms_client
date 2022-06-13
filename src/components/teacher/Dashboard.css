@@ -1,0 +1,20 @@
+.dashboard {
+   width: 100% !important;
+}
+
+.tabs {
+   border-bottom: solid 1px #e2e0e0 !important;
+}
+
+.nav-tabs-button {
+   padding: 8px 20px;
+   border: none !important;
+   border-bottom: solid 2px var(--snow-white) !important;
+   background-color: var(--snow-white) !important;
+}
+
+.nav-tabs-button.active {
+   padding: 8px 20px;
+   border-bottom: solid 2px var(--primary) !important;
+   background-color: var(--snow-white) !important;
+}

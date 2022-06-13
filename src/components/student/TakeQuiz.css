@@ -1,0 +1,9 @@
+.question-choices:hover,
+.question-choices.active {
+   border: solid 2px var(--primary) !important;
+}
+
+.fill-blank-input {
+   min-width: 180px !important;
+   width: auto;
+}

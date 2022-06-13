@@ -1,0 +1,74 @@
+.classPostList {
+   height: 380px !important;
+}
+.classPost__commentSection {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.commentButton:not(.collapse) {
+   color: var(--secondary-dark) !important;
+   background-color: #fff !important;
+   box-shadow: none !important;
+}
+.commentButton:focus {
+   color: var(--secondary-dark) !important;
+   box-shadow: none !important;
+   background-color: #fff !important;
+}
+
+.commentButton::after {
+   background-image: none !important;
+}
+.comment__input:focus {
+   box-shadow: none !important;
+}
+
+.accordion-header:focus {
+   border: none !important;
+}
+
+.post__body strong,
+.post__body i {
+   font-size: inherit !important;
+}
+
+.post__body p {
+   margin-bottom: 5px !important;
+}
+
+.fileUploads__link {
+   padding: 3px 8px;
+   display: block;
+   max-width: 200px !important;
+
+   color: #fff;
+   font-size: 14px;
+   text-decoration: none;
+   border-radius: 10px;
+   text-align: center;
+   vertical-align: middle;
+   background-color: var(--secondary-dark) !important;
+
+   text-overflow: ellipsis !important;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.fileUploads__link:hover {
+   color: var(--secondary-light) !important;
+}
+
+.fileUploads__icon {
+   font-size: 20px !important;
+}
+
+.post__maxScore,
+.post__type,
+.post__title,
+.submission {
+   font-size: 0.8rem !important;
+   letter-spacing: 1px;
+   font-weight: normal;
+   text-align: center;
+}

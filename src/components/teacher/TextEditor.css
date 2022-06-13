@@ -1,0 +1,13 @@
+.ck-content {
+   padding-top: 15px !important;
+   height: 150px !important;
+}
+.ck-content > p {
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+}
+
+.ck-content strong,
+.ck-content i {
+   font-size: inherit !important;
+}

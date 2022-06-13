@@ -1,0 +1,11 @@
+.sidebarDropdown__icon {
+   margin: 0 10px !important;
+}
+
+.sidebarDropdown__menu--active {
+   border-right: solid 8px var(--primary-dark) !important;
+}
+
+.sidebarDropdown__menu {
+   margin-left: 10% !important;
+}

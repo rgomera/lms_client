@@ -1,0 +1,20 @@
+.signin-signup-options-container {
+   background-image: url('../images/bg.jpg');
+   min-height: 100%;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.options-container h1 {
+   font-size: 3rem;
+   font-family: AmsiPro !important;
+}
+.options-container {
+   width: 450px;
+   height: 280px;
+   padding: 20px;
+   background-color: var(--primary) !important;
+   border-radius: 8px;
+
+   box-shadow: 10px 5px 10px #0000006e;
+}

@@ -1,0 +1,20 @@
+.correctAnswer {
+   border: solid 2px var(--success) !important;
+}
+.wrongAnswer {
+   border: solid 2px var(--primary) !important;
+}
+.fibqAnswer {
+   position: relative;
+}
+.fibqYourAnswer,
+.fibqText {
+   margin-bottom: 20px;
+}
+.fibqCorrectAnswer {
+   position: absolute;
+   top: 40px;
+   left: 5px;
+   color: var(--success);
+   margin-bottom: 20px;
+}

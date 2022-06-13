@@ -1,0 +1,17 @@
+.reportCard {
+   width: 100%;
+   flex-shrink: 0 !important;
+   color: var(--primary) !important;
+   background-color: #fff !important;
+   border: none !important;
+   border-radius: 12px !important;
+}
+
+.reportCard__icon {
+   font-size: 50px !important;
+}
+
+.reportCard__data {
+   font-size: 42px;
+   letter-spacing: 1px;
+}

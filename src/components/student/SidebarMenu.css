@@ -1,0 +1,17 @@
+.sidebarMenu__item--active {
+   border-right: solid 8px var(--primary-dark);
+}
+.sidebarMenu__item:hover {
+   background-color: var(--primary-dark) !important;
+}
+
+.sidebarMenu__item__icon {
+   margin: 0 10px;
+}
+
+.sidebarMenu__item__link {
+   width: 100%;
+   padding: 8px;
+   text-decoration: none;
+   color: #fff !important;
+}

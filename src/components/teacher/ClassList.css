@@ -1,0 +1,8 @@
+.classList {
+   height: 500px !important;
+}
+
+.menu__item--hover:hover {
+   color: #fff;
+   background-color: var(--primary) !important;
+}

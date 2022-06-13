@@ -1,0 +1,31 @@
+.classPage__icon {
+   padding: 4px 0 !important;
+}
+
+.classPage__header {
+   border-radius: 15px !important;
+}
+
+.menu__item--hover:hover {
+   color: #fff;
+   background-color: var(--primary) !important;
+}
+
+.spinner__large {
+   width: 100px;
+   height: 100px;
+}
+.spinner__medium {
+   width: 70px;
+   height: 70px;
+}
+
+.addPostTab {
+   height: 380px !important;
+   overflow-y: auto;
+   /* background-color: red; */
+}
+
+/* .addPostTab::-webkit-scrollbar {
+   display: none;
+} */

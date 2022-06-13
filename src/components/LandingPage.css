@@ -1,0 +1,38 @@
+.landing-page {
+   background-color: #fff;
+   min-height: 100%;
+}
+
+/* navbar */
+.navbar-style {
+   background-color: #fff;
+   color: var(--primary) !important;
+}
+.nav-link-style {
+   text-decoration: none;
+   color: var(--primary);
+   padding: 5px 10px;
+   font-size: 1.3rem;
+}
+.nav-link-style:hover {
+   color: var(--primary-light);
+}
+.navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(239, 85, 82) ' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.navbar-toggler {
+   border-color: var(--primary) !important;
+}
+.navbar-toggler:focus {
+   text-decoration: none !;
+   outline: none !important;
+   box-shadow: 0 0 0 0.25rem rgba(239, 85, 82, 0.25) !important;
+}
+
+.banner h1 {
+   font-size: 4rem;
+   font-family: AmsiPro !important;
+}
+.banner-header {
+   line-height: 55px;
+}

@@ -1,0 +1,35 @@
+.sidebar {
+   width: 250px !important;
+   height: 100vh;
+   overflow: scroll;
+   padding: 15px 0;
+   color: #fff;
+   border: none !important;
+   background-color: var(--primary);
+   transition: all 0.3s ease-out !important;
+}
+
+.sidebar__brand {
+   border-bottom: solid 1px var(--primary-dark) !important;
+}
+
+/* hides scrollbar but scrollable */
+.sidebar::-webkit-scrollbar {
+   display: none;
+}
+
+.sidebar.show {
+   position: relative !important;
+   visibility: visible !important;
+}
+
+.sidebar__closeButton {
+   border-radius: none !important;
+   border: none !important;
+   color: #fff !important;
+   background-color: transparent !important;
+}
+
+.sidebar__icon {
+   margin: 0 10px;
+}

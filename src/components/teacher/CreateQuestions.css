@@ -1,0 +1,15 @@
+.category-item:hover {
+   cursor: pointer !important;
+   color: #fff !important;
+   background-color: var(--primary) !important;
+}
+
+.category-list {
+   width: 97%;
+   height: 120px !important;
+}
+
+.fill-blank-input {
+   min-width: 180px !important;
+   width: auto;
+}

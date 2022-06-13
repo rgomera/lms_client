@@ -1,0 +1,17 @@
+.comment {
+   font-size: 13px !important;
+   margin: 10px 0;
+}
+
+.comment__displayName {
+   font-weight: bold;
+   margin-right: 5px;
+}
+
+.comment__time {
+   margin-left: 5px;
+}
+
+.comment__body {
+   word-wrap: break-word;
+}
